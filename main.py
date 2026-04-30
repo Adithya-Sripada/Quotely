@@ -61,6 +61,6 @@ def send_email(to, subject, body, html=False):
     return result
 
 # Plain text
-# send_email("lsripada@gmail.com", "Quote of the Day", quote)
-# send_email("rsripada@gmail.com", "Quote of the Day", quote)
+send_email("lsripada@gmail.com", "Quote of the Day", quote)
+send_email("rsripada@gmail.com", "Quote of the Day", quote)
 send_email("whoissripada159@gmail.com", "Quote of the Day", quote)
