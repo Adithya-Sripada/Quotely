@@ -61,5 +61,5 @@ def send_email(to, subject, body, html=False):
     return result
 
 # Plain text
-send_email("AMMA", "Quote of the Day", quote)
-send_email("NANA", "Quote of the Day", quote)
+send_email(AMMA, "Quote of the Day", quote)
+send_email(NANA, "Quote of the Day", quote)
